@@ -50,4 +50,8 @@ Logs of events such as peer registrations, dead node reports, and received messa
 
 </ol>
 
+![gossip in library](https://github.com/user-attachments/assets/3deed94d-9e09-4d13-957a-5a27a15c183c)
+
+
+
 

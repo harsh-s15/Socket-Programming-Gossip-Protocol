@@ -1,0 +1,56 @@
+(localhost:5004) : Received connection request - Register:localhost:6001
+(localhost:5002) : Received connection request - Register:localhost:6001
+(localhost:5000) : Received connection request - Register:localhost:6001
+(localhost:6001) : Received Peer List - []
+(localhost:5002) : Received connection request - Register:localhost:6002
+(localhost:5000) : Received connection request - Register:localhost:6002
+(localhost:6002) : Received Peer List - [('localhost', 6001)]
+(localhost:6001) : 1727804001.9281728:localhost#6002:gossip#0
+(localhost:6002) : 1727804002.5127387:localhost#6001:gossip#5
+(localhost:6001) : 1727804006.9490902:localhost#6002:gossip#1
+(localhost:6002) : 1727804007.5295365:localhost#6001:gossip#6
+(localhost:6001) : 1727804011.9709387:localhost#6002:gossip#2
+(localhost:6002) : 1727804012.5511677:localhost#6001:gossip#7
+(localhost:6001) : 1727804016.9907718:localhost#6002:gossip#3
+(localhost:6002) : 1727804017.576666:localhost#6001:gossip#8
+(localhost:6001) : 1727804022.0205853:localhost#6002:gossip#4
+(localhost:6002) : 1727804022.604657:localhost#6001:gossip#9
+(localhost:6001) : 1727804027.044525:localhost#6002:gossip#5
+(localhost:6001) : 1727804032.0744529:localhost#6002:gossip#6
+(localhost:6001) : 1727804037.0985608:localhost#6002:gossip#7
+(localhost:6001) : 1727804042.1243057:localhost#6002:gossip#8
+(localhost:6001) : 1727804047.1486654:localhost#6002:gossip#9
+(localhost:5001) : Received connection request - Register:localhost:6003
+(localhost:5000) : Received connection request - Register:localhost:6003
+(localhost:5002) : Received connection request - Register:localhost:6003
+(localhost:6003) : Received Peer List - [('localhost', 6001), ('localhost', 6002)]
+(localhost:6001) : 1727804122.0345025:localhost#6003:gossip#0
+(localhost:6002) : 1727804122.0345025:localhost#6003:gossip#0
+(localhost:6003) : 1727804122.0345025:localhost#6003:gossip#0
+(localhost:6001) : 1727804127.0658052:localhost#6003:gossip#1
+(localhost:6002) : 1727804127.0658052:localhost#6003:gossip#1
+(localhost:6003) : 1727804127.0658052:localhost#6003:gossip#1
+(localhost:6001) : 1727804132.1064005:localhost#6003:gossip#2
+(localhost:6002) : 1727804132.1064005:localhost#6003:gossip#2
+(localhost:6003) : 1727804132.1064005:localhost#6003:gossip#2
+(localhost:6001) : 1727804137.142676:localhost#6003:gossip#3
+(localhost:6002) : 1727804137.142676:localhost#6003:gossip#3
+(localhost:6003) : 1727804137.142676:localhost#6003:gossip#3
+(localhost:6001) : 1727804142.18882:localhost#6003:gossip#4
+(localhost:6002) : 1727804142.18882:localhost#6003:gossip#4
+(localhost:6003) : 1727804142.18882:localhost#6003:gossip#4
+(localhost:6001) : 1727804147.2299297:localhost#6003:gossip#5
+(localhost:6002) : 1727804147.2299297:localhost#6003:gossip#5
+(localhost:6003) : 1727804147.2299297:localhost#6003:gossip#5
+(localhost:6001) : 1727804152.2738037:localhost#6003:gossip#6
+(localhost:6002) : 1727804152.2738037:localhost#6003:gossip#6
+(localhost:6003) : 1727804152.2738037:localhost#6003:gossip#6
+(localhost:6001) : 1727804157.317419:localhost#6003:gossip#7
+(localhost:6002) : 1727804157.317419:localhost#6003:gossip#7
+(localhost:6003) : 1727804157.317419:localhost#6003:gossip#7
+(localhost:6001) : 1727804162.3530593:localhost#6003:gossip#8
+(localhost:6002) : 1727804162.3530593:localhost#6003:gossip#8
+(localhost:6003) : 1727804162.3530593:localhost#6003:gossip#8
+(localhost:6001) : 1727804167.3941498:localhost#6003:gossip#9
+(localhost:6002) : 1727804167.3941498:localhost#6003:gossip#9
+(localhost:6003) : 1727804167.3941498:localhost#6003:gossip#9

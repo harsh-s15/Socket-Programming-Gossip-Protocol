@@ -44,11 +44,7 @@ You can use the python statement <code>socket.gethostbyname(socket.gethostname()
 <li>
 <h3>Testing Features:</h3>
 
-<h4>Gossip Protocol:</h4> Monitor the terminal output of peer no
-
-Uploading DEMO.mp4…
-
-des to observe gossip messages being exchanged.
+<h4>Gossip Protocol:</h4> Monitor the terminal output of peer nodes to observe gossip messages being exchanged.
 <h4>Liveness Messages:</h4> Check if liveness messages are sent and received between peers, as indicated in the terminal output.
 <h4>Node Killing:</h4> Press enter in the terminal running a peer node to simulate killing the node. Observe termination confirmation in the terminal.
 <h4>Dynamic Configuration:</h4> Modify config.csv to add or remove seed nodes and peers. Restart the seed and peer nodes to reflect the changes.

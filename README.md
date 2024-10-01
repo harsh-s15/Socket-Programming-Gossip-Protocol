@@ -36,6 +36,10 @@ Run multiple instances of peer.py (on different command prompt windows) with dif
 
 ![image](https://github.com/user-attachments/assets/af723e4c-7b01-4336-bfb3-cc11a7106900)
 
+In fact, you can even connect 2 or more computers using socket programming. Here's how : Replace localhost (in config.csv) with the ip of your own system (the one which is going to spawn the seed nodes by running <code>seed.py</code>). eg - 172.31.87.53 
+<br>
+You can use the python statement <code>socket.gethostbyname(socket.gethostname())</code> to get the IP of your machine. Next, make sure all the computer(s) are connected to the same WIFI network, and run the file <code>peer.py</code> on the systems you wish to designate as peers. Upon entering an unused port number for the peer nodes, you can easily see the connection request being trasmitted to the seed node from the peers, and subsequent gossip-protocol interaction.
+
 
 <li>
 <h3>Testing Features:</h3>
